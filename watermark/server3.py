@@ -1,6 +1,6 @@
 """
 Simple Socket server listening on [127.0.0.1]:[port number].
-Takes in port number as command line argument.
+Takes port number as command line argument.
 When specifying port number it is recommended to use a number having atleast 4 digits to avoid conflict with
 the port number of system processes, because the lower value port number are used by system processes.
 It handles only one connection at a time.Sends out sample sensor data of vehicle speed consists of three fields delimited by comma(,).
